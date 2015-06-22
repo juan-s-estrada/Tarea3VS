@@ -64,12 +64,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="mesh.h" />
     <ClInclude Include="objReader.h" />
     <ClInclude Include="offReader.h" />
     <ClInclude Include="Triangle.h" />
     <ClInclude Include="Vertices.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mesh.cpp" />
     <ClCompile Include="objReader.cpp" />
     <ClCompile Include="offReader.cpp" />
     <ClCompile Include="Triangle.cpp" />

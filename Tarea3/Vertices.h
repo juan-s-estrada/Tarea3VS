@@ -2,7 +2,7 @@
 class Vertices
 {
 public:
-	float Vertex[3];
+	float Vertex[3]; //i-j-k
 
 
 public:
