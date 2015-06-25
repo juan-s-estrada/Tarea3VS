@@ -1,12 +1,16 @@
 #include "Vertices.h"
 
 
+Vertices::Vertices(){
+	Vertex = glm::vec3(0.0f, 0.0f, 0.0f);
+
+}
+
+
+
 Vertices::Vertices(float v0, float v1, float v2)
 {
-	Vertex[0] = v0;
-	Vertex[1] = v1;
-	Vertex[2] = v2;
-
+	Vertex = glm::vec3(v0, v1, v2);
 }
 
 

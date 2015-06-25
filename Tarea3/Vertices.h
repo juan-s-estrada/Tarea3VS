@@ -1,8 +1,10 @@
 #pragma once
+#include <gtc/quaternion.hpp>
+#include <glm.hpp>
 class Vertices
 {
 public:
-	float Vertex[3]; //i-j-k
+	glm::vec3 Vertex; //i-j-k
 
 
 public:

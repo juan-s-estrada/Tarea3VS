@@ -5,10 +5,11 @@
 
 class objReader
 {
+public:
 	Mesh mesh;
 
 
-public:
+
 
 	objReader(std::string fpath);
 	~objReader();

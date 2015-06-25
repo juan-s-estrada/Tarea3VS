@@ -1,7 +1,7 @@
 #include "objReader.h"
 
 
-objReader::objReader()
+objReader::objReader(std::string fpath)
 {
 }
 
